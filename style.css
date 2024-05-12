@@ -64,6 +64,7 @@ nav .nav-right ul li a:active, nav .nav-left p:active{
 .main-page{
     background-image: url(./images/2069dc_97fc83b0586a41daa4279bb238771493~mv2.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 800px;
     padding: 1px;
     margin-top: 20px;
