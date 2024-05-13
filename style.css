@@ -13,9 +13,6 @@
     border-radius: 50px;
     text-decoration: none;
 }
-.clear-fix{
-    clear: both;
-}
 nav{
     padding: 20px 50px;
     font-family: "Open Sans", sans-serif;
@@ -28,10 +25,8 @@ nav{
 }
 nav .nav-left {
     width: 15%;
-    float: left;
 }
 nav .nav-left p , nav .nav-left img{
-    float: left;
 }
 nav .nav-left p {
     margin-top: 15px;
@@ -41,13 +36,11 @@ nav .nav-left p {
 
 }
 nav .nav-right {
-    width: 25%;
+    width: 45%;
     margin-top: 15px;
-    float: right;
 }
 nav .nav-right ul li{
     list-style: none;
-    float: left;
     margin: 8px;
 }
 nav .nav-right ul li a{
@@ -65,7 +58,7 @@ nav .nav-right ul li a:active, nav .nav-left p:active{
     background-image: url(./images/2069dc_97fc83b0586a41daa4279bb238771493~mv2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 80vh;
     padding: 1px;
     margin-top: 20px;
 }
@@ -98,17 +91,18 @@ nav .nav-right ul li a:active, nav .nav-left p:active{
 }
 .center-header p{
     font-family: "EB Garamond", serif;
-    font-size: 60px;
+    font-size: 3vw;
     width: 60%;
     margin: 50px auto ;
 
 }
 .center-header span{
     font-family: "Open Sans", sans-serif;
+    font-size: 1vw;
 }
 footer p{
     font-family: "Suez One", serif;
-    font-size: 24px;
+    font-size: 1.5vw;
     text-align: center;
     margin: 20px;
 }
@@ -118,7 +112,6 @@ footer form{
     margin: 35px auto;
 }
 footer form input , footer form button{
-    float: left;
     padding: 15px;
     box-sizing: border-box;
     border: none;
@@ -140,7 +133,6 @@ footer form button:hover{
     background-color: gray;
 }
 footer ul li {
-    float: left;
     margin: 10px;
     list-style: none;
 }
@@ -162,4 +154,9 @@ footer .icons .fa-youtube:hover{
 }
 footer .icons .fa-twitter:hover{
     color: rgb(111, 145, 239);
+}
+@media screen and (max-width:900px) {
+    .center-header{
+        width: 90%;
+    }
 }

@@ -12,6 +12,8 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Suez+One&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Cynthia Ann</title>
 </head>
@@ -20,24 +22,43 @@
     <a href="#" class="lets-chat">
         Let's Chat
     </a>
-    <nav>
-        <div class="nav-left">
+    <!-- <nav class="d-flex justify-content-between">
+        <div class="nav-left d-flex">
             <img src="./images/Nano avatar.png" alt="">
             <p>Cynthia Ann</p>
-            <div class="clear-fix"></div>
         </div>
         <div class="nav-right">
-            <ul>
+            <ul class="d-flex bg-danger">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Published Series</a></li>
                 <li><a href="">Contact</a></li>
-                <div class="clear-fix"></div>
             </ul>
         </div>
-        <div class="clear-fix"></div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg position-fixed p-2">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="./images/Nano avatar.png" alt="">
+            <a class="navbar-brand" href="#">Cynthia Ann</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Published Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="main-page">
+    <div class="main-page d-flex justify-content-center align-items-center">
         <div class="center-header">
             <p>Lorem ipsum dolor sit amet.</p>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
@@ -45,13 +66,12 @@
     </div>
     <footer>
         <p>Join my Bookish Friends Newsletter for Exclusives</p>
-        <form action="">
+        <form action="" class="d-flex">
             <input type="email" name="" id="" placeholder="e.g., email@sxample.com">
             <button type="submit">Join Bookish Friends</button>
-            <div class="clear-fix"></div>
         </form>
         <div class="icons">
-            <ul>
+            <ul class="d-flex">
                 <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
                 <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
@@ -61,6 +81,9 @@
             &copy;2023 Cynthia Ann.
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
