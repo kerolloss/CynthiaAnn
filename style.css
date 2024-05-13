@@ -148,5 +148,24 @@ footer .icons .fa-twitter:hover{
 @media screen and (max-width:900px) {
     .center-header{
         width: 90%;
+        p{
+            font-size: 4.7vw;
+            font-weight: 500;
+        /* background-color: teal; */
+        }
+        span{
+            font-size: 2.5vw;
+        }
+    }
+    footer form{
+        width: 75%;
+    }
+    footer form input{
+        height: 40px;
+    }
+    footer form button{
+        width: 40%;
+        height: 40px;
+        font-size: 10px; 
     }
 }
