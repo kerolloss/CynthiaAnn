@@ -23,17 +23,9 @@ nav{
     z-index: 1912;
     background-color: white;
 }
-nav .nav-left {
-    width: 15%;
-}
-nav .nav-left p , nav .nav-left img{
-}
-nav .nav-left p {
-    margin-top: 15px;
-    padding-left : 10px;
+.navbar-brand{
     font-size: 24px;
     font-family: "EB Garamond", serif;
-
 }
 nav .nav-right {
     width: 45%;
@@ -43,16 +35,16 @@ nav .nav-right ul li{
     list-style: none;
     margin: 8px;
 }
-nav .nav-right ul li a{
+.nav-link{
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
-nav .nav-right ul li a:hover, nav .nav-left p:hover{
+.nav-link:hover, .nav-link:hover, .navbar-brand:hover{
     color: pink;
 }
-nav .nav-right ul li a:active, nav .nav-left p:active{
-    color: rgb(212, 67, 91);
+.nav-link:active, .nav-link:active, .navbar-brand:active{
+    color: rgb(212, 67, 91) !important;
 }
 .main-page{
     background-image: url(./images/2069dc_97fc83b0586a41daa4279bb238771493~mv2.png);
@@ -143,8 +135,6 @@ footer ul li a{
 }
 footer .icons{
     height: 50px;
-    width: 8%;
-    margin: auto;
 }
 footer .icons .fa-facebook:hover{
     color: blue;
