@@ -59,7 +59,6 @@ nav .nav-right ul li{
     width: 35%;
     padding: 50px;
     background-color: white;
-    margin-top: 200px;
     text-align: center;
     position: relative;
 }
@@ -167,5 +166,10 @@ footer .icons .fa-twitter:hover{
         width: 40%;
         height: 40px;
         font-size: 10px; 
+    }
+    .lets-chat{
+        right: 10px;
+        bottom: 20px;
+        padding: 10px 30px;
     }
 }
